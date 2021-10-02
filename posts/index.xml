@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Terminal</title><link>/posts/</link><description>Recent content in Posts on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 05:06:41 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>3 Post</title><link>/posts/3-post/</link><pubDate>Fri, 01 Oct 2021 05:06:41 -0300</pubDate><guid>/posts/3-post/</guid><description>a</description><content>&lt;p>a&lt;/p></content></item><item><title>Second Post</title><link>/posts/second-post/</link><pubDate>Fri, 01 Oct 2021 04:45:47 -0300</pubDate><guid>/posts/second-post/</guid><description>css Really cool snippet pre { background: #1a1a1d; padding: 20px; border-radius: 8px; font-size: 1rem; overflow: auto; } /* PostCSS code */ pre { background: #1a1a1d; padding: 20px; border-radius: 8px; font-size: 1rem; overflow: auto; @media (--phone) { white-space: pre-wrap; word-wrap: break-word; } code { background: none !important; color: #ccc; padding: 0; font-size: inherit; } } // JS code const menuTrigger = document.querySelector(&amp;#39;.menu-trigger&amp;#39;) const menu = document.</description><content>
+&lt;div class="collapsable-code">
+&lt;input id="1" type="checkbox" checked />
+&lt;label for="1">
+&lt;span class="collapsable-code__language">css&lt;/span>
+&lt;span class="collapsable-code__title">Really cool snippet&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide">&lt;/span>
+&lt;/label>
+&lt;pre class="language-css" >&lt;code>
+pre {
+background: #1a1a1d;
+padding: 20px;
+border-radius: 8px;
+font-size: 1rem;
+overflow: auto;
+}
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-css" data-lang="css">&lt;span style="color:#75715e">/* PostCSS code */&lt;/span>
+&lt;span style="color:#f92672">pre&lt;/span> {
+&lt;span style="color:#66d9ef">background&lt;/span>: &lt;span style="color:#ae81ff">#1a1a1d&lt;/span>;
+&lt;span style="color:#66d9ef">padding&lt;/span>: &lt;span style="color:#ae81ff">20&lt;/span>&lt;span style="color:#66d9ef">px&lt;/span>;
+&lt;span style="color:#66d9ef">border-radius&lt;/span>: &lt;span style="color:#ae81ff">8&lt;/span>&lt;span style="color:#66d9ef">px&lt;/span>;
+&lt;span style="color:#66d9ef">font-size&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">rem&lt;/span>;
+&lt;span style="color:#66d9ef">overflow&lt;/span>: &lt;span style="color:#66d9ef">auto&lt;/span>;
+&lt;span style="color:#960050;background-color:#1e0010">@media&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">(--phone)&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">{&lt;/span>
+&lt;span style="color:#66d9ef">white-space&lt;/span>: &lt;span style="color:#66d9ef">pre-wrap&lt;/span>;
+&lt;span style="color:#66d9ef">word-wrap&lt;/span>: &lt;span style="color:#66d9ef">break-word&lt;/span>;
+}
+&lt;span style="color:#f92672">code&lt;/span> {
+&lt;span style="color:#66d9ef">background&lt;/span>: &lt;span style="color:#66d9ef">none&lt;/span> &lt;span style="color:#75715e">!important&lt;/span>;
+&lt;span style="color:#66d9ef">color&lt;/span>: &lt;span style="color:#ae81ff">#ccc&lt;/span>;
+&lt;span style="color:#66d9ef">padding&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;span style="color:#66d9ef">font-size&lt;/span>: &lt;span style="color:#66d9ef">inherit&lt;/span>;
+}
+&lt;span style="color:#960050;background-color:#1e0010">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#75715e">// JS code
+&lt;/span>&lt;span style="color:#75715e">&lt;/span>
+&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">menuTrigger&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;.menu-trigger&amp;#39;&lt;/span>)
+&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">menu&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;.menu&amp;#39;&lt;/span>)
+&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">mobileQuery&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">getComputedStyle&lt;/span>(document.&lt;span style="color:#a6e22e">body&lt;/span>).&lt;span style="color:#a6e22e">getPropertyValue&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;--phoneWidth&amp;#39;&lt;/span>)
+&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">isMobile&lt;/span> &lt;span style="color:#f92672">=&lt;/span> () =&amp;gt; window.&lt;span style="color:#a6e22e">matchMedia&lt;/span>(&lt;span style="color:#a6e22e">mobileQuery&lt;/span>).&lt;span style="color:#a6e22e">matches&lt;/span>
+&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">isMobileMenu&lt;/span> &lt;span style="color:#f92672">=&lt;/span> () =&amp;gt; {
+&lt;span style="color:#a6e22e">menuTrigger&lt;/span>.&lt;span style="color:#a6e22e">classList&lt;/span>.&lt;span style="color:#a6e22e">toggle&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;hidden&amp;#39;&lt;/span>, &lt;span style="color:#f92672">!&lt;/span>&lt;span style="color:#a6e22e">isMobile&lt;/span>())
+&lt;span style="color:#a6e22e">menu&lt;/span>.&lt;span style="color:#a6e22e">classList&lt;/span>.&lt;span style="color:#a6e22e">toggle&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;hidden&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">isMobile&lt;/span>())
+}
+&lt;span style="color:#a6e22e">isMobileMenu&lt;/span>()
+&lt;span style="color:#a6e22e">menuTrigger&lt;/span>.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;click&amp;#39;&lt;/span>, () =&amp;gt; &lt;span style="color:#a6e22e">menu&lt;/span>.&lt;span style="color:#a6e22e">classList&lt;/span>.&lt;span style="color:#a6e22e">toggle&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;hidden&amp;#39;&lt;/span>))
+window.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;resize&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">isMobileMenu&lt;/span>)
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!-- HTML code --&amp;gt;&lt;/span>
+&amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;main&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">h1&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;title&amp;#34;&lt;/span>&amp;gt;{{ .Title }}&amp;lt;/&lt;span style="color:#f92672">h1&lt;/span>&amp;gt;
+{{ range .Pages }}
+{{ .Render &amp;#34;summary&amp;#34;}}
+{{ end }}
+&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/code>&lt;/pre>&lt;/div></content></item><item><title/><link>/posts/first-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/first-post/</guid><description/><content/></item></channel></rss>
